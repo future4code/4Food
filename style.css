@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------- Header ----------- */
+header{
+    display: flex;
+    background: lightgray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Lista de links */
+
+header ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+header li{
+    margin-right: 20px;
+}
+
+/* Botões de Login */
+
+.btn{
+    margin-right: 10px;
+}
+
+.btn input[type="button"]{
+    margin-left: 10px;
+}
+
+/* ----------- PEDIDOS ----------- */
+
+.pedidos{
+    display: flex;
+    justify-content: center;
+}
+
+.pedir-comida{
+    width: 25%;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pedir-mercado{
+    width: 25%;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 25%;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Resimensionando a logo */
+
+.logo img{
+    width: 336px;
+    height: 250px;
+}
+
+/* Redimensionando o prato */
+
+.pedir-comida img{
+    width: 335px;
+    height: 250px;
+}
+
+/* Redimensionando o mercado */
+
+.pedir-mercado img{
+    width: 335px;
+    height: 250px;
+}
+
+
+
+/* ----------- COMO COMPRAR ----------- */
+
+.como-comprar{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.passo-passo{
+    background: red;
+    width: 25%;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------- BANNER ----------- */
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-principal{
+    background: aqua;
+    width: 90%;
+    height: 200px;
+}
+
+/* ----------- FOOTER ----------- */
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background: lightgray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Icons de midia social */
+
+.social-icons{
+    margin-left: 10px;
+}
+
+.social-icons a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Lista de links */
+
+footer ul{
+    display: flex;
+    list-style-type: none; 
+}
+
+footer li{
+    margin-right: 20px;
+}
