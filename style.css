@@ -6,7 +6,8 @@ body{
 /* ----------- Header ----------- */
 header{
     display: flex;
-    background: lightgray;
+    background:#F6875B;
+    color: white;
     justify-content: space-between;
     align-items: center;
 }
@@ -21,6 +22,7 @@ header ul{
 
 header li{
     margin-right: 20px;
+    font-family: 'Poiret One', cursive;
 }
 
 /* Botões de Login */
@@ -108,19 +110,6 @@ header li{
     justify-content: center;
 }
 
-/* ----------- BANNER ----------- */
-
-.banner{
-    display: flex;
-    justify-content: center;
-}
-
-.banner-principal{
-    background: aqua;
-    width: 90%;
-    height: 200px;
-}
-
 /* ----------- FOOTER ----------- */
 
 footer{
@@ -128,7 +117,8 @@ footer{
     bottom: 0;
     width: 100%;
     display: flex;
-    background: lightgray;
+    background:#F6875B;
+    color: white;
     justify-content: space-between;
     align-items: center;
 }
@@ -158,4 +148,5 @@ footer ul{
 
 footer li{
     margin-right: 20px;
+    font-family: 'Poiret One', cursive;
 }
