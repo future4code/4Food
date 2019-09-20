@@ -12,6 +12,11 @@ header{
     align-items: center;
 }
 
+header a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* Lista de links */
 
@@ -34,6 +39,45 @@ header li{
 .btn input[type="button"]{
     margin-left: 10px;
 }
+
+/* ----------- FORMULARIO ----------- */
+
+.formulario{
+    width: 100%;
+}
+
+.contato{
+    height: 500px;
+    border-radius: 5px;
+    padding: 20px 300px 0;
+    width: 50%;
+}
+
+.contato input[type=text], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contato input[type=submit] {
+    width: 100%;
+    background-color: #f6875b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contato input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
 
 /* ----------- PEDIDOS ----------- */
 
@@ -149,4 +193,73 @@ footer ul{
 footer li{
     margin-right: 20px;
     font-family: 'Poiret One', cursive;
+}
+
+
+/* ----------- RESPONSIVO ----------- */
+
+@media (max-width: 375px){
+
+    /* ----------- Header ----------- */
+    header{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    }
+
+    header ul{
+        display: none;
+    }
+
+    /* Botões de Login */
+
+    .btn{
+    margin: 10px;
+    display: flex;
+    }
+
+    .btn input[type="button"]{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    }
+
+    /* ----------- PEDIDOS ----------- */
+
+    .pedidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    width: 90%;
+    }
+
+    /* ----------- COMO COMPRAR ----------- */
+
+    .como-comprar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    /* ----------- FOOTER ----------- */
+
+    footer{
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    }
+
+    footer ul{
+        display: none;
+    }
+
 }
